@@ -14,12 +14,11 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 
 maven_install(
     artifacts = [
-        "junit:junit:4.12",
-        "androidx.test.espresso:espresso-core:3.1.1",
+        "org.jsweet:jsweet-transpiler:2.3.5",
         "org.hamcrest:hamcrest-library:1.3",
     ],
     repositories = [
-        "https://maven.google.com",
+        "http://repository.jsweet.org/artifactory/libs-release-local/",
         "https://repo1.maven.org/maven2",
     ],
     maven_install_json = "//:maven_install.json"
