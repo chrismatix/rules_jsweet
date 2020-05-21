@@ -14,12 +14,14 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 
 maven_install(
     artifacts = [
-        "org.jsweet:jsweet-transpiler:2.3.5",
+        "org.jsweet:jsweet-transpiler:2.3.7",
+        "info.picocli:picocli:4.3.2",
         "org.hamcrest:hamcrest-library:1.3",
     ],
     repositories = [
+        "https://packages.confluent.io/maven",
         "http://repository.jsweet.org/artifactory/libs-release-local/",
-        "https://repo1.maven.org/maven2",
+        "https://repo1.maven.org/maven2/",
     ],
     maven_install_json = "//:maven_install.json"
 )
