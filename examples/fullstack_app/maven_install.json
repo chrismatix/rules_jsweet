@@ -1,0 +1,1181 @@
+{
+    "dependency_tree": {
+        "conflict_resolution": {},
+        "dependencies": [
+            {
+                "coord": "args4j:args4j:2.33",
+                "file": "v1/https/jcenter.bintray.com/args4j/args4j/2.33/args4j-2.33.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/args4j/args4j/2.33/args4j-2.33.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/args4j/args4j/2.33/args4j-2.33.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/args4j/args4j/2.33/args4j-2.33.jar",
+                    "https://packages.confluent.io/maven/args4j/args4j/2.33/args4j-2.33.jar",
+                    "https://repo1.maven.org/maven2/args4j/args4j/2.33/args4j-2.33.jar"
+                ],
+                "sha256": "91ddeaba0b24adce72291c618c00bbdce1c884755f6c4dba9c5c46e871c69ed6"
+            },
+            {
+                "coord": "ch.qos.logback:logback-classic:1.2.3",
+                "file": "v1/https/jcenter.bintray.com/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+                "directDependencies": [
+                    "ch.qos.logback:logback-core:1.2.3",
+                    "org.slf4j:slf4j-api:1.7.26"
+                ],
+                "dependencies": [
+                    "ch.qos.logback:logback-core:1.2.3",
+                    "org.slf4j:slf4j-api:1.7.26"
+                ],
+                "url": "https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+                    "https://packages.confluent.io/maven/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+                    "https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"
+                ],
+                "sha256": "fb53f8539e7fcb8f093a56e138112056ec1dc809ebb020b59d8a36a5ebac37e0"
+            },
+            {
+                "coord": "ch.qos.logback:logback-core:1.2.3",
+                "file": "v1/https/jcenter.bintray.com/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+                    "https://packages.confluent.io/maven/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+                    "https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"
+                ],
+                "sha256": "5946d837fe6f960c02a53eda7a6926ecc3c758bbdd69aa453ee429f858217f22"
+            },
+            {
+                "coord": "com.eclipsesource.minimal-json:minimal-json:0.9.4",
+                "file": "v1/https/jcenter.bintray.com/com/eclipsesource/minimal-json/minimal-json/0.9.4/minimal-json-0.9.4.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/eclipsesource/minimal-json/minimal-json/0.9.4/minimal-json-0.9.4.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/eclipsesource/minimal-json/minimal-json/0.9.4/minimal-json-0.9.4.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/com/eclipsesource/minimal-json/minimal-json/0.9.4/minimal-json-0.9.4.jar",
+                    "https://packages.confluent.io/maven/com/eclipsesource/minimal-json/minimal-json/0.9.4/minimal-json-0.9.4.jar",
+                    "https://repo1.maven.org/maven2/com/eclipsesource/minimal-json/minimal-json/0.9.4/minimal-json-0.9.4.jar"
+                ],
+                "sha256": "e1d280900c78f18ae2e00c14e7410a77ba19cf084154b386532846aa6dc81721"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-annotations:2.10.1",
+                "file": "v1/https/jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar",
+                    "https://packages.confluent.io/maven/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar",
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar"
+                ],
+                "sha256": "673f8ae16becea4fa937404b3a851417faf42df3bbc592028bbe2bfe0cc9d8cb"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-core:2.10.1",
+                "file": "v1/https/jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar",
+                    "https://packages.confluent.io/maven/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar",
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar"
+                ],
+                "sha256": "79bffbdcd349f69a5ac252e2b4096131704386af4fa14d95395ea9a0e423cf33"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-databind:2.10.1",
+                "file": "v1/https/jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar",
+                "directDependencies": [
+                    "com.fasterxml.jackson.core:jackson-annotations:2.10.1",
+                    "com.fasterxml.jackson.core:jackson-core:2.10.1"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.core:jackson-annotations:2.10.1",
+                    "com.fasterxml.jackson.core:jackson-core:2.10.1"
+                ],
+                "url": "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar",
+                    "https://packages.confluent.io/maven/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar",
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar"
+                ],
+                "sha256": "2d23f47001492233565adf5a34f225f2ae89564cee08024873ec36b7842ede46"
+            },
+            {
+                "coord": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.1",
+                "file": "v1/https/jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.jar",
+                "directDependencies": [
+                    "com.fasterxml.jackson.core:jackson-core:2.10.1",
+                    "com.fasterxml.jackson.core:jackson-databind:2.10.1"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.core:jackson-databind:2.10.1",
+                    "com.fasterxml.jackson.core:jackson-annotations:2.10.1",
+                    "com.fasterxml.jackson.core:jackson-core:2.10.1"
+                ],
+                "url": "https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.jar",
+                    "https://packages.confluent.io/maven/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.jar",
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.jar"
+                ],
+                "sha256": "05c45b1441e74ea5e4b0c7a20823d2c7cfded946108902b5691a129e78f60515"
+            },
+            {
+                "coord": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.1",
+                "file": "v1/https/jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar",
+                "directDependencies": [
+                    "com.fasterxml.jackson.core:jackson-annotations:2.10.1",
+                    "com.fasterxml.jackson.core:jackson-core:2.10.1",
+                    "com.fasterxml.jackson.core:jackson-databind:2.10.1"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.core:jackson-databind:2.10.1",
+                    "com.fasterxml.jackson.core:jackson-annotations:2.10.1",
+                    "com.fasterxml.jackson.core:jackson-core:2.10.1"
+                ],
+                "url": "https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar",
+                    "https://packages.confluent.io/maven/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar",
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar"
+                ],
+                "sha256": "5e7d0363068e3d42ac7f6234c88ade8867174009866e6f00f496edb5b295b56f"
+            },
+            {
+                "coord": "com.google.code.findbugs:jsr305:3.0.2",
+                "file": "v1/https/jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+                    "https://packages.confluent.io/maven/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+                    "https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+                ],
+                "sha256": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7"
+            },
+            {
+                "coord": "com.google.code.gson:gson:2.8.2",
+                "file": "v1/https/jcenter.bintray.com/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar",
+                    "https://packages.confluent.io/maven/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar",
+                    "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar"
+                ],
+                "sha256": "b7134929f7cc7c04021ec1cc27ef63ab907e410cf0588e397b8851181eb91092"
+            },
+            {
+                "coord": "com.google.guava:guava:20.0",
+                "file": "v1/https/jcenter.bintray.com/com/google/guava/guava/20.0/guava-20.0.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/guava/guava/20.0/guava-20.0.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/guava/guava/20.0/guava-20.0.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/com/google/guava/guava/20.0/guava-20.0.jar",
+                    "https://packages.confluent.io/maven/com/google/guava/guava/20.0/guava-20.0.jar",
+                    "https://repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar"
+                ],
+                "sha256": "36a666e3b71ae7f0f0dca23654b67e086e6c93d192f60ba5dfd5519db6c288c8"
+            },
+            {
+                "coord": "com.google.javascript:closure-compiler-externs:v20161201",
+                "file": "v1/https/jcenter.bintray.com/com/google/javascript/closure-compiler-externs/v20161201/closure-compiler-externs-v20161201.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/javascript/closure-compiler-externs/v20161201/closure-compiler-externs-v20161201.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/javascript/closure-compiler-externs/v20161201/closure-compiler-externs-v20161201.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/com/google/javascript/closure-compiler-externs/v20161201/closure-compiler-externs-v20161201.jar",
+                    "https://packages.confluent.io/maven/com/google/javascript/closure-compiler-externs/v20161201/closure-compiler-externs-v20161201.jar",
+                    "https://repo1.maven.org/maven2/com/google/javascript/closure-compiler-externs/v20161201/closure-compiler-externs-v20161201.jar"
+                ],
+                "sha256": "79ed9d822e0f5843df9b553aa932c9185699f24177917b1e96e821fe4e7eb6c3"
+            },
+            {
+                "coord": "com.google.javascript:closure-compiler:v20161201",
+                "file": "v1/https/jcenter.bintray.com/com/google/javascript/closure-compiler/v20161201/closure-compiler-v20161201.jar",
+                "directDependencies": [
+                    "com.google.guava:guava:20.0",
+                    "com.google.protobuf:protobuf-java:3.0.2",
+                    "com.google.javascript:closure-compiler-externs:v20161201",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "com.google.jsinterop:jsinterop-annotations:1.0.0",
+                    "com.google.code.gson:gson:2.8.2",
+                    "args4j:args4j:2.33"
+                ],
+                "dependencies": [
+                    "com.google.guava:guava:20.0",
+                    "com.google.protobuf:protobuf-java:3.0.2",
+                    "com.google.javascript:closure-compiler-externs:v20161201",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "com.google.jsinterop:jsinterop-annotations:1.0.0",
+                    "com.google.code.gson:gson:2.8.2",
+                    "args4j:args4j:2.33"
+                ],
+                "url": "https://jcenter.bintray.com/com/google/javascript/closure-compiler/v20161201/closure-compiler-v20161201.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/javascript/closure-compiler/v20161201/closure-compiler-v20161201.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/com/google/javascript/closure-compiler/v20161201/closure-compiler-v20161201.jar",
+                    "https://packages.confluent.io/maven/com/google/javascript/closure-compiler/v20161201/closure-compiler-v20161201.jar",
+                    "https://repo1.maven.org/maven2/com/google/javascript/closure-compiler/v20161201/closure-compiler-v20161201.jar"
+                ],
+                "sha256": "21c9b26ac57e00944804a902958542520d04da5b5bffd0db553b83a20d0a608e"
+            },
+            {
+                "coord": "com.google.jsinterop:jsinterop-annotations:1.0.0",
+                "file": "v1/https/jcenter.bintray.com/com/google/jsinterop/jsinterop-annotations/1.0.0/jsinterop-annotations-1.0.0.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/jsinterop/jsinterop-annotations/1.0.0/jsinterop-annotations-1.0.0.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/jsinterop/jsinterop-annotations/1.0.0/jsinterop-annotations-1.0.0.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/com/google/jsinterop/jsinterop-annotations/1.0.0/jsinterop-annotations-1.0.0.jar",
+                    "https://packages.confluent.io/maven/com/google/jsinterop/jsinterop-annotations/1.0.0/jsinterop-annotations-1.0.0.jar",
+                    "https://repo1.maven.org/maven2/com/google/jsinterop/jsinterop-annotations/1.0.0/jsinterop-annotations-1.0.0.jar"
+                ],
+                "sha256": "e5c1e0ceef98fb65a3d382641bcc1faab97649da1b422bbfc60e21b47345c854"
+            },
+            {
+                "coord": "com.google.protobuf:protobuf-java:3.0.2",
+                "file": "v1/https/jcenter.bintray.com/com/google/protobuf/protobuf-java/3.0.2/protobuf-java-3.0.2.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/google/protobuf/protobuf-java/3.0.2/protobuf-java-3.0.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/google/protobuf/protobuf-java/3.0.2/protobuf-java-3.0.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/com/google/protobuf/protobuf-java/3.0.2/protobuf-java-3.0.2.jar",
+                    "https://packages.confluent.io/maven/com/google/protobuf/protobuf-java/3.0.2/protobuf-java-3.0.2.jar",
+                    "https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.0.2/protobuf-java-3.0.2.jar"
+                ],
+                "sha256": "cf029dff3bfc5c7be21b6ea77723bce698500013911ab76b2e74beb5aedaf745"
+            },
+            {
+                "coord": "com.martiansoftware:jsap:2.1",
+                "file": "v1/https/jcenter.bintray.com/com/martiansoftware/jsap/2.1/jsap-2.1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/com/martiansoftware/jsap/2.1/jsap-2.1.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/com/martiansoftware/jsap/2.1/jsap-2.1.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/com/martiansoftware/jsap/2.1/jsap-2.1.jar",
+                    "https://packages.confluent.io/maven/com/martiansoftware/jsap/2.1/jsap-2.1.jar",
+                    "https://repo1.maven.org/maven2/com/martiansoftware/jsap/2.1/jsap-2.1.jar"
+                ],
+                "sha256": "331746fa62cfbc3368260c5a2e660936ad11be612308c120a044e120361d474e"
+            },
+            {
+                "coord": "commons-io:commons-io:2.4",
+                "file": "v1/https/jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/commons-io/commons-io/2.4/commons-io-2.4.jar",
+                    "https://packages.confluent.io/maven/commons-io/commons-io/2.4/commons-io-2.4.jar",
+                    "https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"
+                ],
+                "sha256": "cc6a41dc3eaacc9e440a6bd0d2890b20d36b4ee408fe2d67122f328bb6e01581"
+            },
+            {
+                "coord": "io.micronaut:micronaut-aop:1.3.2",
+                "file": "v1/https/jcenter.bintray.com/io/micronaut/micronaut-aop/1.3.2/micronaut-aop-1.3.2.jar",
+                "directDependencies": [
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "org.slf4j:slf4j-api:1.7.26"
+                ],
+                "dependencies": [
+                    "org.reactivestreams:reactive-streams:1.0.3",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "org.yaml:snakeyaml:1.24",
+                    "javax.annotation:javax.annotation-api:1.3.2",
+                    "javax.inject:javax.inject:1"
+                ],
+                "url": "https://jcenter.bintray.com/io/micronaut/micronaut-aop/1.3.2/micronaut-aop-1.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/micronaut/micronaut-aop/1.3.2/micronaut-aop-1.3.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/micronaut/micronaut-aop/1.3.2/micronaut-aop-1.3.2.jar",
+                    "https://packages.confluent.io/maven/io/micronaut/micronaut-aop/1.3.2/micronaut-aop-1.3.2.jar",
+                    "https://repo1.maven.org/maven2/io/micronaut/micronaut-aop/1.3.2/micronaut-aop-1.3.2.jar"
+                ],
+                "sha256": "c89008ccc5c4176de61aa6fb9a671e903ced9ecbb419bfa8b84466fd97bc143f"
+            },
+            {
+                "coord": "io.micronaut:micronaut-buffer-netty:1.3.2",
+                "file": "v1/https/jcenter.bintray.com/io/micronaut/micronaut-buffer-netty/1.3.2/micronaut-buffer-netty-1.3.2.jar",
+                "directDependencies": [
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "io.netty:netty-buffer:4.1.45.Final",
+                    "org.slf4j:slf4j-api:1.7.26"
+                ],
+                "dependencies": [
+                    "org.reactivestreams:reactive-streams:1.0.3",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "org.yaml:snakeyaml:1.24",
+                    "javax.annotation:javax.annotation-api:1.3.2",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "javax.inject:javax.inject:1",
+                    "io.netty:netty-buffer:4.1.45.Final"
+                ],
+                "url": "https://jcenter.bintray.com/io/micronaut/micronaut-buffer-netty/1.3.2/micronaut-buffer-netty-1.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/micronaut/micronaut-buffer-netty/1.3.2/micronaut-buffer-netty-1.3.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/micronaut/micronaut-buffer-netty/1.3.2/micronaut-buffer-netty-1.3.2.jar",
+                    "https://packages.confluent.io/maven/io/micronaut/micronaut-buffer-netty/1.3.2/micronaut-buffer-netty-1.3.2.jar",
+                    "https://repo1.maven.org/maven2/io/micronaut/micronaut-buffer-netty/1.3.2/micronaut-buffer-netty-1.3.2.jar"
+                ],
+                "sha256": "9077b61bf25b722dceda8fe0b546d8dc7b2dc7aeb9d752ff0445a9b0c50dedb4"
+            },
+            {
+                "coord": "io.micronaut:micronaut-core:1.3.2",
+                "file": "v1/https/jcenter.bintray.com/io/micronaut/micronaut-core/1.3.2/micronaut-core-1.3.2.jar",
+                "directDependencies": [
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.reactivestreams:reactive-streams:1.0.3",
+                    "org.slf4j:slf4j-api:1.7.26"
+                ],
+                "dependencies": [
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "org.reactivestreams:reactive-streams:1.0.3",
+                    "com.google.code.findbugs:jsr305:3.0.2"
+                ],
+                "url": "https://jcenter.bintray.com/io/micronaut/micronaut-core/1.3.2/micronaut-core-1.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/micronaut/micronaut-core/1.3.2/micronaut-core-1.3.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/micronaut/micronaut-core/1.3.2/micronaut-core-1.3.2.jar",
+                    "https://packages.confluent.io/maven/io/micronaut/micronaut-core/1.3.2/micronaut-core-1.3.2.jar",
+                    "https://repo1.maven.org/maven2/io/micronaut/micronaut-core/1.3.2/micronaut-core-1.3.2.jar"
+                ],
+                "sha256": "7fcb59b7198d5ef5cdcd22225f335670df2441513ac2ca4e6e66e0931850720e"
+            },
+            {
+                "coord": "io.micronaut:micronaut-http-client:1.3.2",
+                "file": "v1/https/jcenter.bintray.com/io/micronaut/micronaut-http-client/1.3.2/micronaut-http-client-1.3.2.jar",
+                "directDependencies": [
+                    "io.netty:netty-handler-proxy:4.1.45.Final",
+                    "io.micronaut:micronaut-http-netty:1.3.2",
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "io.reactivex.rxjava2:rxjava:2.2.10",
+                    "io.micronaut:micronaut-runtime:1.3.2",
+                    "io.micronaut:micronaut-websocket:1.3.2"
+                ],
+                "dependencies": [
+                    "org.reactivestreams:reactive-streams:1.0.3",
+                    "io.netty:netty-handler-proxy:4.1.45.Final",
+                    "io.micronaut:micronaut-http-netty:1.3.2",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "io.netty:netty-codec-socks:4.1.45.Final",
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.1",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "io.reactivex.rxjava2:rxjava:2.2.10",
+                    "org.yaml:snakeyaml:1.24",
+                    "com.fasterxml.jackson.core:jackson-core:2.10.1",
+                    "io.micronaut:micronaut-runtime:1.3.2",
+                    "io.micronaut:micronaut-http:1.3.2",
+                    "io.netty:netty-codec:4.1.45.Final",
+                    "com.fasterxml.jackson.core:jackson-annotations:2.10.1",
+                    "io.netty:netty-codec-http:4.1.45.Final",
+                    "javax.annotation:javax.annotation-api:1.3.2",
+                    "io.netty:netty-transport:4.1.45.Final",
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.1",
+                    "io.micronaut:micronaut-aop:1.3.2",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.netty:netty-resolver:4.1.45.Final",
+                    "javax.inject:javax.inject:1",
+                    "com.fasterxml.jackson.core:jackson-databind:2.10.1",
+                    "io.netty:netty-buffer:4.1.45.Final",
+                    "javax.validation:validation-api:2.0.1.Final",
+                    "io.netty:netty-handler:4.1.45.Final",
+                    "io.micronaut:micronaut-buffer-netty:1.3.2",
+                    "io.micronaut:micronaut-websocket:1.3.2"
+                ],
+                "url": "https://jcenter.bintray.com/io/micronaut/micronaut-http-client/1.3.2/micronaut-http-client-1.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/micronaut/micronaut-http-client/1.3.2/micronaut-http-client-1.3.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/micronaut/micronaut-http-client/1.3.2/micronaut-http-client-1.3.2.jar",
+                    "https://packages.confluent.io/maven/io/micronaut/micronaut-http-client/1.3.2/micronaut-http-client-1.3.2.jar",
+                    "https://repo1.maven.org/maven2/io/micronaut/micronaut-http-client/1.3.2/micronaut-http-client-1.3.2.jar"
+                ],
+                "sha256": "91ed84f521526673d96c037e6a05a76bb42ef82cffd20cab4dddfb67704bb932"
+            },
+            {
+                "coord": "io.micronaut:micronaut-http-netty:1.3.2",
+                "file": "v1/https/jcenter.bintray.com/io/micronaut/micronaut-http-netty/1.3.2/micronaut-http-netty-1.3.2.jar",
+                "directDependencies": [
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "io.reactivex.rxjava2:rxjava:2.2.10",
+                    "io.micronaut:micronaut-http:1.3.2",
+                    "io.netty:netty-codec-http:4.1.45.Final",
+                    "io.netty:netty-handler:4.1.45.Final",
+                    "io.micronaut:micronaut-buffer-netty:1.3.2",
+                    "io.micronaut:micronaut-websocket:1.3.2"
+                ],
+                "dependencies": [
+                    "org.reactivestreams:reactive-streams:1.0.3",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "io.reactivex.rxjava2:rxjava:2.2.10",
+                    "org.yaml:snakeyaml:1.24",
+                    "io.micronaut:micronaut-http:1.3.2",
+                    "io.netty:netty-codec:4.1.45.Final",
+                    "io.netty:netty-codec-http:4.1.45.Final",
+                    "javax.annotation:javax.annotation-api:1.3.2",
+                    "io.netty:netty-transport:4.1.45.Final",
+                    "io.micronaut:micronaut-aop:1.3.2",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.netty:netty-resolver:4.1.45.Final",
+                    "javax.inject:javax.inject:1",
+                    "io.netty:netty-buffer:4.1.45.Final",
+                    "io.netty:netty-handler:4.1.45.Final",
+                    "io.micronaut:micronaut-buffer-netty:1.3.2",
+                    "io.micronaut:micronaut-websocket:1.3.2"
+                ],
+                "url": "https://jcenter.bintray.com/io/micronaut/micronaut-http-netty/1.3.2/micronaut-http-netty-1.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/micronaut/micronaut-http-netty/1.3.2/micronaut-http-netty-1.3.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/micronaut/micronaut-http-netty/1.3.2/micronaut-http-netty-1.3.2.jar",
+                    "https://packages.confluent.io/maven/io/micronaut/micronaut-http-netty/1.3.2/micronaut-http-netty-1.3.2.jar",
+                    "https://repo1.maven.org/maven2/io/micronaut/micronaut-http-netty/1.3.2/micronaut-http-netty-1.3.2.jar"
+                ],
+                "sha256": "633d1d9576f2a8296c1a1c31927e07ce6b50ea4b320256b7e3711b83f6949dcb"
+            },
+            {
+                "coord": "io.micronaut:micronaut-http-server-netty:1.3.2",
+                "file": "v1/https/jcenter.bintray.com/io/micronaut/micronaut-http-server-netty/1.3.2/micronaut-http-server-netty-1.3.2.jar",
+                "directDependencies": [
+                    "io.micronaut:micronaut-http-netty:1.3.2",
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "io.netty:netty-codec-http:4.1.45.Final",
+                    "io.micronaut:micronaut-http-server:1.3.2"
+                ],
+                "dependencies": [
+                    "org.reactivestreams:reactive-streams:1.0.3",
+                    "io.micronaut:micronaut-http-netty:1.3.2",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.1",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "io.reactivex.rxjava2:rxjava:2.2.10",
+                    "org.yaml:snakeyaml:1.24",
+                    "com.fasterxml.jackson.core:jackson-core:2.10.1",
+                    "io.micronaut:micronaut-runtime:1.3.2",
+                    "io.micronaut:micronaut-http:1.3.2",
+                    "io.netty:netty-codec:4.1.45.Final",
+                    "com.fasterxml.jackson.core:jackson-annotations:2.10.1",
+                    "io.netty:netty-codec-http:4.1.45.Final",
+                    "javax.annotation:javax.annotation-api:1.3.2",
+                    "io.netty:netty-transport:4.1.45.Final",
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.1",
+                    "io.micronaut:micronaut-aop:1.3.2",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.micronaut:micronaut-router:1.3.2",
+                    "io.micronaut:micronaut-http-server:1.3.2",
+                    "io.netty:netty-resolver:4.1.45.Final",
+                    "javax.inject:javax.inject:1",
+                    "com.fasterxml.jackson.core:jackson-databind:2.10.1",
+                    "io.netty:netty-buffer:4.1.45.Final",
+                    "javax.validation:validation-api:2.0.1.Final",
+                    "io.netty:netty-handler:4.1.45.Final",
+                    "io.micronaut:micronaut-buffer-netty:1.3.2",
+                    "io.micronaut:micronaut-websocket:1.3.2"
+                ],
+                "url": "https://jcenter.bintray.com/io/micronaut/micronaut-http-server-netty/1.3.2/micronaut-http-server-netty-1.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/micronaut/micronaut-http-server-netty/1.3.2/micronaut-http-server-netty-1.3.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/micronaut/micronaut-http-server-netty/1.3.2/micronaut-http-server-netty-1.3.2.jar",
+                    "https://packages.confluent.io/maven/io/micronaut/micronaut-http-server-netty/1.3.2/micronaut-http-server-netty-1.3.2.jar",
+                    "https://repo1.maven.org/maven2/io/micronaut/micronaut-http-server-netty/1.3.2/micronaut-http-server-netty-1.3.2.jar"
+                ],
+                "sha256": "8439047bb54bd3e439b35def5ad2d73658a283fdfa24b95a7a16de766f5e7467"
+            },
+            {
+                "coord": "io.micronaut:micronaut-http-server:1.3.2",
+                "file": "v1/https/jcenter.bintray.com/io/micronaut/micronaut-http-server/1.3.2/micronaut-http-server-1.3.2.jar",
+                "directDependencies": [
+                    "io.micronaut:micronaut-router:1.3.2",
+                    "io.micronaut:micronaut-runtime:1.3.2",
+                    "io.micronaut:micronaut-websocket:1.3.2",
+                    "org.slf4j:slf4j-api:1.7.26"
+                ],
+                "dependencies": [
+                    "org.reactivestreams:reactive-streams:1.0.3",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.1",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "io.reactivex.rxjava2:rxjava:2.2.10",
+                    "org.yaml:snakeyaml:1.24",
+                    "com.fasterxml.jackson.core:jackson-core:2.10.1",
+                    "io.micronaut:micronaut-runtime:1.3.2",
+                    "io.micronaut:micronaut-http:1.3.2",
+                    "com.fasterxml.jackson.core:jackson-annotations:2.10.1",
+                    "javax.annotation:javax.annotation-api:1.3.2",
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.1",
+                    "io.micronaut:micronaut-aop:1.3.2",
+                    "io.micronaut:micronaut-router:1.3.2",
+                    "javax.inject:javax.inject:1",
+                    "com.fasterxml.jackson.core:jackson-databind:2.10.1",
+                    "javax.validation:validation-api:2.0.1.Final",
+                    "io.micronaut:micronaut-websocket:1.3.2"
+                ],
+                "url": "https://jcenter.bintray.com/io/micronaut/micronaut-http-server/1.3.2/micronaut-http-server-1.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/micronaut/micronaut-http-server/1.3.2/micronaut-http-server-1.3.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/micronaut/micronaut-http-server/1.3.2/micronaut-http-server-1.3.2.jar",
+                    "https://packages.confluent.io/maven/io/micronaut/micronaut-http-server/1.3.2/micronaut-http-server-1.3.2.jar",
+                    "https://repo1.maven.org/maven2/io/micronaut/micronaut-http-server/1.3.2/micronaut-http-server-1.3.2.jar"
+                ],
+                "sha256": "a8d175a9f1949907357159554b09a55537acf30915a30330112f9b7c2e899cd2"
+            },
+            {
+                "coord": "io.micronaut:micronaut-http:1.3.2",
+                "file": "v1/https/jcenter.bintray.com/io/micronaut/micronaut-http/1.3.2/micronaut-http-1.3.2.jar",
+                "directDependencies": [
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "org.slf4j:slf4j-api:1.7.26"
+                ],
+                "dependencies": [
+                    "org.reactivestreams:reactive-streams:1.0.3",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "org.yaml:snakeyaml:1.24",
+                    "javax.annotation:javax.annotation-api:1.3.2",
+                    "javax.inject:javax.inject:1"
+                ],
+                "url": "https://jcenter.bintray.com/io/micronaut/micronaut-http/1.3.2/micronaut-http-1.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/micronaut/micronaut-http/1.3.2/micronaut-http-1.3.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/micronaut/micronaut-http/1.3.2/micronaut-http-1.3.2.jar",
+                    "https://packages.confluent.io/maven/io/micronaut/micronaut-http/1.3.2/micronaut-http-1.3.2.jar",
+                    "https://repo1.maven.org/maven2/io/micronaut/micronaut-http/1.3.2/micronaut-http-1.3.2.jar"
+                ],
+                "sha256": "53132c3bf818386f0e393716e315359901d19b635c1b75f346808faa8763ee23"
+            },
+            {
+                "coord": "io.micronaut:micronaut-inject:1.3.2",
+                "file": "v1/https/jcenter.bintray.com/io/micronaut/micronaut-inject/1.3.2/micronaut-inject-1.3.2.jar",
+                "directDependencies": [
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "org.yaml:snakeyaml:1.24",
+                    "javax.annotation:javax.annotation-api:1.3.2",
+                    "javax.inject:javax.inject:1"
+                ],
+                "dependencies": [
+                    "org.reactivestreams:reactive-streams:1.0.3",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "org.yaml:snakeyaml:1.24",
+                    "javax.annotation:javax.annotation-api:1.3.2",
+                    "javax.inject:javax.inject:1"
+                ],
+                "url": "https://jcenter.bintray.com/io/micronaut/micronaut-inject/1.3.2/micronaut-inject-1.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/micronaut/micronaut-inject/1.3.2/micronaut-inject-1.3.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/micronaut/micronaut-inject/1.3.2/micronaut-inject-1.3.2.jar",
+                    "https://packages.confluent.io/maven/io/micronaut/micronaut-inject/1.3.2/micronaut-inject-1.3.2.jar",
+                    "https://repo1.maven.org/maven2/io/micronaut/micronaut-inject/1.3.2/micronaut-inject-1.3.2.jar"
+                ],
+                "sha256": "7e800445f5964d308f9c2a6caf85318377e7bfddf2055499a89832b0d51ffe7c"
+            },
+            {
+                "coord": "io.micronaut:micronaut-router:1.3.2",
+                "file": "v1/https/jcenter.bintray.com/io/micronaut/micronaut-router/1.3.2/micronaut-router-1.3.2.jar",
+                "directDependencies": [
+                    "io.micronaut:micronaut-http:1.3.2",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "org.slf4j:slf4j-api:1.7.26"
+                ],
+                "dependencies": [
+                    "org.reactivestreams:reactive-streams:1.0.3",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "org.yaml:snakeyaml:1.24",
+                    "io.micronaut:micronaut-http:1.3.2",
+                    "javax.annotation:javax.annotation-api:1.3.2",
+                    "javax.inject:javax.inject:1"
+                ],
+                "url": "https://jcenter.bintray.com/io/micronaut/micronaut-router/1.3.2/micronaut-router-1.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/micronaut/micronaut-router/1.3.2/micronaut-router-1.3.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/micronaut/micronaut-router/1.3.2/micronaut-router-1.3.2.jar",
+                    "https://packages.confluent.io/maven/io/micronaut/micronaut-router/1.3.2/micronaut-router-1.3.2.jar",
+                    "https://repo1.maven.org/maven2/io/micronaut/micronaut-router/1.3.2/micronaut-router-1.3.2.jar"
+                ],
+                "sha256": "1fba7111fbbb4ff54d31a340ed8f730e64583b597d5f52f366f667863c34e59a"
+            },
+            {
+                "coord": "io.micronaut:micronaut-runtime:1.3.2",
+                "file": "v1/https/jcenter.bintray.com/io/micronaut/micronaut-runtime/1.3.2/micronaut-runtime-1.3.2.jar",
+                "directDependencies": [
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.1",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "io.reactivex.rxjava2:rxjava:2.2.10",
+                    "io.micronaut:micronaut-http:1.3.2",
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.1",
+                    "io.micronaut:micronaut-aop:1.3.2",
+                    "com.fasterxml.jackson.core:jackson-databind:2.10.1",
+                    "javax.validation:validation-api:2.0.1.Final"
+                ],
+                "dependencies": [
+                    "org.reactivestreams:reactive-streams:1.0.3",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.10.1",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "io.reactivex.rxjava2:rxjava:2.2.10",
+                    "org.yaml:snakeyaml:1.24",
+                    "com.fasterxml.jackson.core:jackson-core:2.10.1",
+                    "io.micronaut:micronaut-http:1.3.2",
+                    "com.fasterxml.jackson.core:jackson-annotations:2.10.1",
+                    "javax.annotation:javax.annotation-api:1.3.2",
+                    "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.10.1",
+                    "io.micronaut:micronaut-aop:1.3.2",
+                    "javax.inject:javax.inject:1",
+                    "com.fasterxml.jackson.core:jackson-databind:2.10.1",
+                    "javax.validation:validation-api:2.0.1.Final"
+                ],
+                "url": "https://jcenter.bintray.com/io/micronaut/micronaut-runtime/1.3.2/micronaut-runtime-1.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/micronaut/micronaut-runtime/1.3.2/micronaut-runtime-1.3.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/micronaut/micronaut-runtime/1.3.2/micronaut-runtime-1.3.2.jar",
+                    "https://packages.confluent.io/maven/io/micronaut/micronaut-runtime/1.3.2/micronaut-runtime-1.3.2.jar",
+                    "https://repo1.maven.org/maven2/io/micronaut/micronaut-runtime/1.3.2/micronaut-runtime-1.3.2.jar"
+                ],
+                "sha256": "28b30186c5fc71a5deed7c8121c0293a6e148ee9e408ef076416c32cefde4af8"
+            },
+            {
+                "coord": "io.micronaut:micronaut-validation:1.3.2",
+                "file": "v1/https/jcenter.bintray.com/io/micronaut/micronaut-validation/1.3.2/micronaut-validation-1.3.2.jar",
+                "directDependencies": [
+                    "io.micronaut:micronaut-http:1.3.2",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "javax.validation:validation-api:2.0.1.Final",
+                    "org.slf4j:slf4j-api:1.7.26"
+                ],
+                "dependencies": [
+                    "org.reactivestreams:reactive-streams:1.0.3",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "org.yaml:snakeyaml:1.24",
+                    "io.micronaut:micronaut-http:1.3.2",
+                    "javax.annotation:javax.annotation-api:1.3.2",
+                    "javax.inject:javax.inject:1",
+                    "javax.validation:validation-api:2.0.1.Final"
+                ],
+                "url": "https://jcenter.bintray.com/io/micronaut/micronaut-validation/1.3.2/micronaut-validation-1.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/micronaut/micronaut-validation/1.3.2/micronaut-validation-1.3.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/micronaut/micronaut-validation/1.3.2/micronaut-validation-1.3.2.jar",
+                    "https://packages.confluent.io/maven/io/micronaut/micronaut-validation/1.3.2/micronaut-validation-1.3.2.jar",
+                    "https://repo1.maven.org/maven2/io/micronaut/micronaut-validation/1.3.2/micronaut-validation-1.3.2.jar"
+                ],
+                "sha256": "8ce3cda76f1b6934aa6ba73ca3a324328ccf7e3b161480ef6330682783cc1034"
+            },
+            {
+                "coord": "io.micronaut:micronaut-websocket:1.3.2",
+                "file": "v1/https/jcenter.bintray.com/io/micronaut/micronaut-websocket/1.3.2/micronaut-websocket-1.3.2.jar",
+                "directDependencies": [
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "io.reactivex.rxjava2:rxjava:2.2.10",
+                    "io.micronaut:micronaut-http:1.3.2",
+                    "io.micronaut:micronaut-aop:1.3.2"
+                ],
+                "dependencies": [
+                    "org.reactivestreams:reactive-streams:1.0.3",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "org.slf4j:slf4j-api:1.7.26",
+                    "io.micronaut:micronaut-inject:1.3.2",
+                    "io.micronaut:micronaut-core:1.3.2",
+                    "io.reactivex.rxjava2:rxjava:2.2.10",
+                    "org.yaml:snakeyaml:1.24",
+                    "io.micronaut:micronaut-http:1.3.2",
+                    "javax.annotation:javax.annotation-api:1.3.2",
+                    "io.micronaut:micronaut-aop:1.3.2",
+                    "javax.inject:javax.inject:1"
+                ],
+                "url": "https://jcenter.bintray.com/io/micronaut/micronaut-websocket/1.3.2/micronaut-websocket-1.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/micronaut/micronaut-websocket/1.3.2/micronaut-websocket-1.3.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/micronaut/micronaut-websocket/1.3.2/micronaut-websocket-1.3.2.jar",
+                    "https://packages.confluent.io/maven/io/micronaut/micronaut-websocket/1.3.2/micronaut-websocket-1.3.2.jar",
+                    "https://repo1.maven.org/maven2/io/micronaut/micronaut-websocket/1.3.2/micronaut-websocket-1.3.2.jar"
+                ],
+                "sha256": "ac39d07fc2ce147eea5bf7a971b3d4b1304adf278c650f3c54bf0164e053b4bd"
+            },
+            {
+                "coord": "io.netty:netty-buffer:4.1.45.Final",
+                "file": "v1/https/jcenter.bintray.com/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar",
+                "directDependencies": [
+                    "io.netty:netty-common:4.1.45.Final"
+                ],
+                "dependencies": [
+                    "io.netty:netty-common:4.1.45.Final"
+                ],
+                "url": "https://jcenter.bintray.com/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar",
+                    "https://packages.confluent.io/maven/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar",
+                    "https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.45.Final/netty-buffer-4.1.45.Final.jar"
+                ],
+                "sha256": "8437b43e03c272093066837567e1b89019ef291f06f5ace1051017981d98d59f"
+            },
+            {
+                "coord": "io.netty:netty-codec-http:4.1.45.Final",
+                "file": "v1/https/jcenter.bintray.com/io/netty/netty-codec-http/4.1.45.Final/netty-codec-http-4.1.45.Final.jar",
+                "directDependencies": [
+                    "io.netty:netty-codec:4.1.45.Final",
+                    "io.netty:netty-transport:4.1.45.Final",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.netty:netty-buffer:4.1.45.Final",
+                    "io.netty:netty-handler:4.1.45.Final"
+                ],
+                "dependencies": [
+                    "io.netty:netty-codec:4.1.45.Final",
+                    "io.netty:netty-transport:4.1.45.Final",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.netty:netty-resolver:4.1.45.Final",
+                    "io.netty:netty-buffer:4.1.45.Final",
+                    "io.netty:netty-handler:4.1.45.Final"
+                ],
+                "url": "https://jcenter.bintray.com/io/netty/netty-codec-http/4.1.45.Final/netty-codec-http-4.1.45.Final.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/netty/netty-codec-http/4.1.45.Final/netty-codec-http-4.1.45.Final.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/netty/netty-codec-http/4.1.45.Final/netty-codec-http-4.1.45.Final.jar",
+                    "https://packages.confluent.io/maven/io/netty/netty-codec-http/4.1.45.Final/netty-codec-http-4.1.45.Final.jar",
+                    "https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.45.Final/netty-codec-http-4.1.45.Final.jar"
+                ],
+                "sha256": "db8d8bf478bd3ad723c3d23fdf1cbf62ab9d419a8636e17add3f82f51f8e0bc1"
+            },
+            {
+                "coord": "io.netty:netty-codec-socks:4.1.45.Final",
+                "file": "v1/https/jcenter.bintray.com/io/netty/netty-codec-socks/4.1.45.Final/netty-codec-socks-4.1.45.Final.jar",
+                "directDependencies": [
+                    "io.netty:netty-buffer:4.1.45.Final",
+                    "io.netty:netty-codec:4.1.45.Final",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.netty:netty-transport:4.1.45.Final"
+                ],
+                "dependencies": [
+                    "io.netty:netty-codec:4.1.45.Final",
+                    "io.netty:netty-transport:4.1.45.Final",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.netty:netty-resolver:4.1.45.Final",
+                    "io.netty:netty-buffer:4.1.45.Final"
+                ],
+                "url": "https://jcenter.bintray.com/io/netty/netty-codec-socks/4.1.45.Final/netty-codec-socks-4.1.45.Final.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/netty/netty-codec-socks/4.1.45.Final/netty-codec-socks-4.1.45.Final.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/netty/netty-codec-socks/4.1.45.Final/netty-codec-socks-4.1.45.Final.jar",
+                    "https://packages.confluent.io/maven/io/netty/netty-codec-socks/4.1.45.Final/netty-codec-socks-4.1.45.Final.jar",
+                    "https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.45.Final/netty-codec-socks-4.1.45.Final.jar"
+                ],
+                "sha256": "f5aa6197d3df9009bbb889ada2b1ae09b23559ebe748030478652c05a5977a25"
+            },
+            {
+                "coord": "io.netty:netty-codec:4.1.45.Final",
+                "file": "v1/https/jcenter.bintray.com/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar",
+                "directDependencies": [
+                    "io.netty:netty-buffer:4.1.45.Final",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.netty:netty-transport:4.1.45.Final"
+                ],
+                "dependencies": [
+                    "io.netty:netty-buffer:4.1.45.Final",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.netty:netty-resolver:4.1.45.Final",
+                    "io.netty:netty-transport:4.1.45.Final"
+                ],
+                "url": "https://jcenter.bintray.com/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar",
+                    "https://packages.confluent.io/maven/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar",
+                    "https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.45.Final/netty-codec-4.1.45.Final.jar"
+                ],
+                "sha256": "47e211ad8c4c2b809b6e04541d6c8e3893dea63918dabe93fa5cf63914ffc9cc"
+            },
+            {
+                "coord": "io.netty:netty-common:4.1.45.Final",
+                "file": "v1/https/jcenter.bintray.com/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar",
+                    "https://packages.confluent.io/maven/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar",
+                    "https://repo1.maven.org/maven2/io/netty/netty-common/4.1.45.Final/netty-common-4.1.45.Final.jar"
+                ],
+                "sha256": "6f3c61684cf8c0f09df7ebb5a19df29d5d9fc175ce68ae237993b91366ccc43e"
+            },
+            {
+                "coord": "io.netty:netty-handler-proxy:4.1.45.Final",
+                "file": "v1/https/jcenter.bintray.com/io/netty/netty-handler-proxy/4.1.45.Final/netty-handler-proxy-4.1.45.Final.jar",
+                "directDependencies": [
+                    "io.netty:netty-codec-socks:4.1.45.Final",
+                    "io.netty:netty-codec:4.1.45.Final",
+                    "io.netty:netty-codec-http:4.1.45.Final",
+                    "io.netty:netty-transport:4.1.45.Final",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.netty:netty-buffer:4.1.45.Final"
+                ],
+                "dependencies": [
+                    "io.netty:netty-codec-socks:4.1.45.Final",
+                    "io.netty:netty-codec:4.1.45.Final",
+                    "io.netty:netty-codec-http:4.1.45.Final",
+                    "io.netty:netty-transport:4.1.45.Final",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.netty:netty-resolver:4.1.45.Final",
+                    "io.netty:netty-buffer:4.1.45.Final",
+                    "io.netty:netty-handler:4.1.45.Final"
+                ],
+                "url": "https://jcenter.bintray.com/io/netty/netty-handler-proxy/4.1.45.Final/netty-handler-proxy-4.1.45.Final.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/netty/netty-handler-proxy/4.1.45.Final/netty-handler-proxy-4.1.45.Final.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/netty/netty-handler-proxy/4.1.45.Final/netty-handler-proxy-4.1.45.Final.jar",
+                    "https://packages.confluent.io/maven/io/netty/netty-handler-proxy/4.1.45.Final/netty-handler-proxy-4.1.45.Final.jar",
+                    "https://repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.45.Final/netty-handler-proxy-4.1.45.Final.jar"
+                ],
+                "sha256": "410fc065171e26bb9a24ed5f7f88b3200e641cb65605ec11bc9c7625da28429a"
+            },
+            {
+                "coord": "io.netty:netty-handler:4.1.45.Final",
+                "file": "v1/https/jcenter.bintray.com/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar",
+                "directDependencies": [
+                    "io.netty:netty-buffer:4.1.45.Final",
+                    "io.netty:netty-codec:4.1.45.Final",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.netty:netty-transport:4.1.45.Final"
+                ],
+                "dependencies": [
+                    "io.netty:netty-codec:4.1.45.Final",
+                    "io.netty:netty-transport:4.1.45.Final",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.netty:netty-resolver:4.1.45.Final",
+                    "io.netty:netty-buffer:4.1.45.Final"
+                ],
+                "url": "https://jcenter.bintray.com/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar",
+                    "https://packages.confluent.io/maven/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar",
+                    "https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.45.Final/netty-handler-4.1.45.Final.jar"
+                ],
+                "sha256": "2ad6785ba22fb522dba8128a0599b3f5ee47c210dddb8d8ec678f7765ac406f0"
+            },
+            {
+                "coord": "io.netty:netty-resolver:4.1.45.Final",
+                "file": "v1/https/jcenter.bintray.com/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar",
+                "directDependencies": [
+                    "io.netty:netty-common:4.1.45.Final"
+                ],
+                "dependencies": [
+                    "io.netty:netty-common:4.1.45.Final"
+                ],
+                "url": "https://jcenter.bintray.com/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar",
+                    "https://packages.confluent.io/maven/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar",
+                    "https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.45.Final/netty-resolver-4.1.45.Final.jar"
+                ],
+                "sha256": "1d762ecfa9da9241db339b611fad0529491bb0c3098c16e9c80d64f04d80323c"
+            },
+            {
+                "coord": "io.netty:netty-transport:4.1.45.Final",
+                "file": "v1/https/jcenter.bintray.com/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar",
+                "directDependencies": [
+                    "io.netty:netty-buffer:4.1.45.Final",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.netty:netty-resolver:4.1.45.Final"
+                ],
+                "dependencies": [
+                    "io.netty:netty-buffer:4.1.45.Final",
+                    "io.netty:netty-common:4.1.45.Final",
+                    "io.netty:netty-resolver:4.1.45.Final"
+                ],
+                "url": "https://jcenter.bintray.com/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar",
+                    "https://packages.confluent.io/maven/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar",
+                    "https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.45.Final/netty-transport-4.1.45.Final.jar"
+                ],
+                "sha256": "ca38fc85e9e18c4921d9ce92830445efad05d0fb3e8dd6ba3536e0843cdf723b"
+            },
+            {
+                "coord": "io.reactivex.rxjava2:rxjava:2.2.10",
+                "file": "v1/https/jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.2.10/rxjava-2.2.10.jar",
+                "directDependencies": [
+                    "org.reactivestreams:reactive-streams:1.0.3"
+                ],
+                "dependencies": [
+                    "org.reactivestreams:reactive-streams:1.0.3"
+                ],
+                "url": "https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.2.10/rxjava-2.2.10.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/io/reactivex/rxjava2/rxjava/2.2.10/rxjava-2.2.10.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/io/reactivex/rxjava2/rxjava/2.2.10/rxjava-2.2.10.jar",
+                    "https://packages.confluent.io/maven/io/reactivex/rxjava2/rxjava/2.2.10/rxjava-2.2.10.jar",
+                    "https://repo1.maven.org/maven2/io/reactivex/rxjava2/rxjava/2.2.10/rxjava-2.2.10.jar"
+                ],
+                "sha256": "21b5cac673a156cd8d6cf9efe15ff267b6353eeb129678aa4b39542683ba0dc2"
+            },
+            {
+                "coord": "javax.annotation:javax.annotation-api:1.3.2",
+                "file": "v1/https/jcenter.bintray.com/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar",
+                    "https://packages.confluent.io/maven/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar",
+                    "https://repo1.maven.org/maven2/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar"
+                ],
+                "sha256": "e04ba5195bcd555dc95650f7cc614d151e4bcd52d29a10b8aa2197f3ab89ab9b"
+            },
+            {
+                "coord": "javax.inject:javax.inject:1",
+                "file": "v1/https/jcenter.bintray.com/javax/inject/javax.inject/1/javax.inject-1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/javax/inject/javax.inject/1/javax.inject-1.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/javax/inject/javax.inject/1/javax.inject-1.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/javax/inject/javax.inject/1/javax.inject-1.jar",
+                    "https://packages.confluent.io/maven/javax/inject/javax.inject/1/javax.inject-1.jar",
+                    "https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar"
+                ],
+                "sha256": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+            },
+            {
+                "coord": "javax.validation:validation-api:2.0.1.Final",
+                "file": "v1/https/jcenter.bintray.com/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar",
+                    "https://packages.confluent.io/maven/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar",
+                    "https://repo1.maven.org/maven2/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar"
+                ],
+                "sha256": "9873b46df1833c9ee8f5bc1ff6853375115dadd8897bcb5a0dffb5848835ee6c"
+            },
+            {
+                "coord": "log4j:log4j:1.2.17",
+                "file": "v1/https/jcenter.bintray.com/log4j/log4j/1.2.17/log4j-1.2.17.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/log4j/log4j/1.2.17/log4j-1.2.17.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/log4j/log4j/1.2.17/log4j-1.2.17.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/log4j/log4j/1.2.17/log4j-1.2.17.jar",
+                    "https://packages.confluent.io/maven/log4j/log4j/1.2.17/log4j-1.2.17.jar",
+                    "https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar"
+                ],
+                "sha256": "1d31696445697720527091754369082a6651bd49781b6005deb94e56753406f9"
+            },
+            {
+                "coord": "org.apache.commons:commons-lang3:3.7",
+                "file": "v1/https/jcenter.bintray.com/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar",
+                    "https://packages.confluent.io/maven/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar",
+                    "https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar"
+                ],
+                "sha256": "6e8dc31e046508d9953c96534edf0c2e0bfe6f468966b5b842b3f87e43b6a847"
+            },
+            {
+                "coord": "org.apache.commons:commons-text:1.3",
+                "file": "v1/https/jcenter.bintray.com/org/apache/commons/commons-text/1.3/commons-text-1.3.jar",
+                "directDependencies": [
+                    "org.apache.commons:commons-lang3:3.7"
+                ],
+                "dependencies": [
+                    "org.apache.commons:commons-lang3:3.7"
+                ],
+                "url": "https://jcenter.bintray.com/org/apache/commons/commons-text/1.3/commons-text-1.3.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/apache/commons/commons-text/1.3/commons-text-1.3.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/org/apache/commons/commons-text/1.3/commons-text-1.3.jar",
+                    "https://packages.confluent.io/maven/org/apache/commons/commons-text/1.3/commons-text-1.3.jar",
+                    "https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.3/commons-text-1.3.jar"
+                ],
+                "sha256": "8185b3a5311092d83ed1f184c2d093b3105d726bbd76867c32b3511542bb99a8"
+            },
+            {
+                "coord": "org.jsweet.ext:typescript.java-ts.core:1.4.0.1",
+                "file": "v1/http/repository.jsweet.org/artifactory/libs-release-local/org/jsweet/ext/typescript.java-ts.core/1.4.0.1/typescript.java-ts.core-1.4.0.1.jar",
+                "directDependencies": [
+                    "com.eclipsesource.minimal-json:minimal-json:0.9.4",
+                    "com.google.code.gson:gson:2.8.2",
+                    "org.tukaani:xz:1.8"
+                ],
+                "dependencies": [
+                    "com.eclipsesource.minimal-json:minimal-json:0.9.4",
+                    "com.google.code.gson:gson:2.8.2",
+                    "org.tukaani:xz:1.8"
+                ],
+                "url": "http://repository.jsweet.org/artifactory/libs-release-local/org/jsweet/ext/typescript.java-ts.core/1.4.0.1/typescript.java-ts.core-1.4.0.1.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/jsweet/ext/typescript.java-ts.core/1.4.0.1/typescript.java-ts.core-1.4.0.1.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/org/jsweet/ext/typescript.java-ts.core/1.4.0.1/typescript.java-ts.core-1.4.0.1.jar",
+                    "https://packages.confluent.io/maven/org/jsweet/ext/typescript.java-ts.core/1.4.0.1/typescript.java-ts.core-1.4.0.1.jar",
+                    "https://repo1.maven.org/maven2/org/jsweet/ext/typescript.java-ts.core/1.4.0.1/typescript.java-ts.core-1.4.0.1.jar"
+                ],
+                "sha256": "c022a4862c9a5b63165632c3b58466129e069728c87e8b5dc6a9d078928a36bf"
+            },
+            {
+                "coord": "org.jsweet:jsweet-transpiler:2.3.7",
+                "file": "v1/https/jcenter.bintray.com/org/jsweet/jsweet-transpiler/2.3.7/jsweet-transpiler-2.3.7.jar",
+                "directDependencies": [
+                    "org.jsweet.ext:typescript.java-ts.core:1.4.0.1",
+                    "commons-io:commons-io:2.4",
+                    "org.apache.commons:commons-text:1.3",
+                    "log4j:log4j:1.2.17",
+                    "org.apache.commons:commons-lang3:3.7",
+                    "com.martiansoftware:jsap:2.1",
+                    "com.google.javascript:closure-compiler:v20161201",
+                    "com.google.code.gson:gson:2.8.2"
+                ],
+                "dependencies": [
+                    "com.google.guava:guava:20.0",
+                    "com.google.protobuf:protobuf-java:3.0.2",
+                    "com.google.javascript:closure-compiler-externs:v20161201",
+                    "org.jsweet.ext:typescript.java-ts.core:1.4.0.1",
+                    "com.google.code.findbugs:jsr305:3.0.2",
+                    "commons-io:commons-io:2.4",
+                    "org.apache.commons:commons-text:1.3",
+                    "log4j:log4j:1.2.17",
+                    "org.apache.commons:commons-lang3:3.7",
+                    "com.martiansoftware:jsap:2.1",
+                    "org.tukaani:xz:1.8",
+                    "com.google.jsinterop:jsinterop-annotations:1.0.0",
+                    "com.google.javascript:closure-compiler:v20161201",
+                    "com.eclipsesource.minimal-json:minimal-json:0.9.4",
+                    "com.google.code.gson:gson:2.8.2",
+                    "args4j:args4j:2.33"
+                ],
+                "url": "https://jcenter.bintray.com/org/jsweet/jsweet-transpiler/2.3.7/jsweet-transpiler-2.3.7.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/jsweet/jsweet-transpiler/2.3.7/jsweet-transpiler-2.3.7.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/org/jsweet/jsweet-transpiler/2.3.7/jsweet-transpiler-2.3.7.jar",
+                    "https://packages.confluent.io/maven/org/jsweet/jsweet-transpiler/2.3.7/jsweet-transpiler-2.3.7.jar",
+                    "https://repo1.maven.org/maven2/org/jsweet/jsweet-transpiler/2.3.7/jsweet-transpiler-2.3.7.jar"
+                ],
+                "sha256": "fec99dee70236f43ea48a983b8b9ce47bd651844876312f3512e98ff6e92287c"
+            },
+            {
+                "coord": "org.reactivestreams:reactive-streams:1.0.3",
+                "file": "v1/https/jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+                    "https://packages.confluent.io/maven/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar",
+                    "https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+                ],
+                "sha256": "1dee0481072d19c929b623e155e14d2f6085dc011529a0a0dbefc84cf571d865"
+            },
+            {
+                "coord": "org.slf4j:slf4j-api:1.7.26",
+                "file": "v1/https/jcenter.bintray.com/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar",
+                    "https://packages.confluent.io/maven/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar",
+                    "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar"
+                ],
+                "sha256": "6d9e5b86cfd1dd44c676899285b5bb4fa0d371cf583e8164f9c8a0366553242b"
+            },
+            {
+                "coord": "org.tukaani:xz:1.8",
+                "file": "v1/https/jcenter.bintray.com/org/tukaani/xz/1.8/xz-1.8.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/org/tukaani/xz/1.8/xz-1.8.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/tukaani/xz/1.8/xz-1.8.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/org/tukaani/xz/1.8/xz-1.8.jar",
+                    "https://packages.confluent.io/maven/org/tukaani/xz/1.8/xz-1.8.jar",
+                    "https://repo1.maven.org/maven2/org/tukaani/xz/1.8/xz-1.8.jar"
+                ],
+                "sha256": "8c7964b36fe3f0cbe644b04fcbff84e491ce81917db2f5bfa0cba8e9548aff5d"
+            },
+            {
+                "coord": "org.yaml:snakeyaml:1.24",
+                "file": "v1/https/jcenter.bintray.com/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://jcenter.bintray.com/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar",
+                "mirror_urls": [
+                    "https://jcenter.bintray.com/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar",
+                    "http://repository.jsweet.org/artifactory/libs-release-local/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar",
+                    "https://packages.confluent.io/maven/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar",
+                    "https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar"
+                ],
+                "sha256": "d3f7f09989d5b0ce5c4791818ef937ee7663f1e359c2ef2d312f938aad0763da"
+            }
+        ],
+        "version": "0.1.0",
+        "__AUTOGENERATED_FILE_DO_NOT_MODIFY_THIS_FILE_MANUALLY": 159265807
+    }
+}

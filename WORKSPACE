@@ -16,7 +16,6 @@ maven_install(
     artifacts = [
         "org.jsweet:jsweet-transpiler:2.3.7",
         "info.picocli:picocli:4.3.2",
-        "org.hamcrest:hamcrest-library:1.3",
     ],
     repositories = [
         "https://packages.confluent.io/maven",
