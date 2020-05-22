@@ -20,6 +20,6 @@
     },
     "scripts": {
         "build": "bazel build //...",
-        "serve": "ibazel run :server"
+        "serve": "ibazel run //client:server"
     }
 }

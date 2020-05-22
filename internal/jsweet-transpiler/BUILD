@@ -3,10 +3,9 @@
 java_binary(
     name = "jsweet-transpiler",
     srcs = glob(["src/**/*.java"]),
-    main_class = "com.github.jsweet_rules.Main",
-
+    main_class = "org.jsweet.JSweetCommandLineLauncher",
     deps = [
         "@maven//:org_jsweet_jsweet_transpiler",
-        "@maven//:info_picocli_picocli"
+        "@maven//:org_jsweet_jsweet_core"
     ],
 )

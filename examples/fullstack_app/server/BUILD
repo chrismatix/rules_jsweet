@@ -3,6 +3,7 @@ java_binary(
     name = "server",
     srcs = glob(["**/*.java"]),
     main_class = "com.github.rules_jsweet.examples.Application",
+    resources = glob(["src/resources/**/*"]),
     deps = [
         "@maven//:io_micronaut_micronaut_runtime",
         "@maven//:io_micronaut_micronaut_validation",

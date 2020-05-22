@@ -4,6 +4,6 @@ import org.jsweet.JSweetCommandLineLauncher;
 
 public class Main {
     public static void main(String[] args) {
-        JSweetCommandLineLauncher.transpileWithArgs(args);
+        JSweetCommandLineLauncher.main(args);
     }
 }
