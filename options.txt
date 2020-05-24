@@ -26,7 +26,7 @@ Command line options:
         set, the transpiler will try to use the JAVA_HOME environment variable.
         Note that the expected JDK version is greater or equals to version 8.
 
-  (-i|--input) input1:input2:...:inputN 
+  (-i|--input) input1:input2:...:inputN
         An input directory (or column-separated input directories) containing
         Java files to be transpiled. Java files will be recursively looked up in
         sub-directories. Inclusion and exclusion patterns can be defined with
@@ -149,3 +149,5 @@ Command line options:
   [--extraSystemPath <extraSystemPath>]
         Allow an extra path to be added to the system path.
 
+
+{transpiler} --workingDir {working_dir}  --input {files} --tsOnly

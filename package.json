@@ -1,0 +1,8 @@
+{
+  "name": "rules_jsweet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:xChrisPx/rules_jsweet.git",
+  "author": "Christoph Pröschel <chris@airy.co>",
+  "license": "MIT"
+}
