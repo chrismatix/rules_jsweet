@@ -1,6 +1,9 @@
 
 exports_files(
     [
-        "maven_install.json"
-    ]
+        "package.json",
+        "yarn.lock",
+        "tsconfig.json"
+    ],
+    visibility = ["//visibility:public"],
 )

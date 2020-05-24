@@ -1,3 +1,8 @@
+workspace(
+    name = "platform",
+    managed_directories = {"@npm": ["node_modules"]},
+)
+
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
 ### jvm_external (https://github.com/bazelbuild/rules_jvm_external)
@@ -17,7 +22,8 @@ load("@rules_jvm_external//:defs.bzl", "maven_install")
 maven_install(
     artifacts = [
         "org.jsweet:jsweet-core:6.2.0",
-        "org.jsweet:jsweet-transpiler:3.0.0-RC1"
+        "org.jsweet:jsweet-transpiler:3.0.0-RC1",
+        "com.martiansoftware:jsap:2.1"
         ],
     repositories = [
         "https://packages.confluent.io/maven",
@@ -52,3 +58,6 @@ yarn_install(
 load("@npm//:install_bazel_dependencies.bzl", "install_bazel_dependencies")
 
 install_bazel_dependencies()
+
+load("@npm_bazel_typescript//:index.bzl", "ts_setup_workspace")
+ts_setup_workspace()
