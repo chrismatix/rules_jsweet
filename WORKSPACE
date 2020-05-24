@@ -1,21 +1,13 @@
 workspace(
-    name = "platform",
+    name = "rules_jsweet",
     managed_directories = {"@npm": ["node_modules"]},
 )
 
-load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+load("//:respositories.bzl", "rules_jsweet_dependencies")
+
+rules_jsweet_dependencies()
 
 ### jvm_external (https://github.com/bazelbuild/rules_jvm_external)
-
-RULES_JVM_EXTERNAL_TAG = "3.0"
-RULES_JVM_EXTERNAL_SHA = "62133c125bf4109dfd9d2af64830208356ce4ef8b165a6ef15bbff7460b35c3a"
-
-http_archive(
-    name = "rules_jvm_external",
-    strip_prefix = "rules_jvm_external-%s" % RULES_JVM_EXTERNAL_TAG,
-    sha256 = "62133c125bf4109dfd9d2af64830208356ce4ef8b165a6ef15bbff7460b35c3a",
-    url = "https://github.com/bazelbuild/rules_jvm_external/archive/%s.zip" % RULES_JVM_EXTERNAL_TAG,
-)
 
 load("@rules_jvm_external//:defs.bzl", "maven_install")
 
@@ -37,14 +29,6 @@ load("@maven//:defs.bzl", "pinned_maven_install")
 pinned_maven_install()
 
 ### rules_nodejs (https://github.com/bazelbuild/rules_nodejs)
-
-load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
-
-http_archive(
-    name = "build_bazel_rules_nodejs",
-    sha256 = "d14076339deb08e5460c221fae5c5e9605d2ef4848eee1f0c81c9ffdc1ab31c1",
-    urls = ["https://github.com/bazelbuild/rules_nodejs/releases/download/1.6.1/rules_nodejs-1.6.1.tar.gz"],
-)
 
 load("@build_bazel_rules_nodejs//:index.bzl", "yarn_install")
 

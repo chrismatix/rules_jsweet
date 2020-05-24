@@ -1,4 +1,4 @@
-package test.lib.src.java.com.github.rules_jsweet.examples;
+package com.github.rules_jsweet.examples;
 
 import def.js.JSON;
 import def.js.Object;

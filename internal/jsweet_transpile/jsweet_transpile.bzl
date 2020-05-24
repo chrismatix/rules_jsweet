@@ -34,7 +34,6 @@ def _outputs(ctx, input_files = []):
 def _jsweet_transpile_impl(ctx):
     name = ctx.attr.name
     input_files = ctx.files.srcs
-    print(ctx.label.package)
 
     outs = _outputs(ctx, input_files)
 
@@ -45,8 +44,7 @@ def _jsweet_transpile_impl(ctx):
 
     command = """
 export PATH={node_path}:$PATH;
-{transpiler} --workingDir {working_dir} --verbose --input {input_dirs} --tsOnly --tsout {ts_out} && \
-cp -r {ts_out}/{package}/* {ts_out}/
+{transpiler} --workingDir {working_dir} --input {input_dirs} --tsOnly --tsout {ts_out}
 """.format(
         node_path = nodejs_bin.path,
         package = ctx.label.package,
@@ -86,25 +84,27 @@ cp -r {ts_out}/{package}/* {ts_out}/
         )
     ]
 
+TRANSPILE_ATTRS = {
+   "srcs": attr.label_list(
+     allow_files = [ALLOWED_EXT]
+   ),
+   "_jdk": attr.label(
+     default = Label("@bazel_tools//tools/jdk:current_java_runtime"),
+     allow_files = True,
+     providers = [java_common.JavaRuntimeInfo]
+   ),
+   "deps": attr.label_list(
+       providers = [JavaInfo]
+   ),
+   "_jsweet_transpiler": attr.label(
+       cfg = "host",
+       executable = True,
+       default = "//internal/jsweet-transpiler"
+   ),
+}
+
 _jsweet_transpile = rule(
-    attrs = {
-        "srcs": attr.label_list(
-          allow_files = [ALLOWED_EXT]
-        ),
-        "_jdk": attr.label(
-          default = Label("@bazel_tools//tools/jdk:current_java_runtime"),
-          allow_files = True,
-          providers = [java_common.JavaRuntimeInfo]
-        ),
-        "deps": attr.label_list(
-            providers = [JavaInfo]
-        ),
-        "_jsweet_transpiler": attr.label(
-            cfg = "host",
-            executable = True,
-            default = "//internal/jsweet-transpiler"
-        ),
-    },
+    attrs = TRANSPILE_ATTRS,
     implementation = _jsweet_transpile_impl,
     toolchains = [
         # We need access to node
