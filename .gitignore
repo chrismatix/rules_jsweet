@@ -1,7 +1,9 @@
-
 bazel-*
 .ijwb
 .idea
 .jsweet
 target
 node_modules
+
+!releases/.gitkeep
+releases/*.zip
